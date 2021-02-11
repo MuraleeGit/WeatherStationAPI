@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="9.058669">
+    <testcase classname="Weather API scenarios" name="Weather API post request without API key" time="5.035578">
+        <system-out>
+            <![CDATA[Given I have the api request................................................passed
+When I submit the get request without api key...............................passed
+Then I validate the response................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Weather API scenarios" name="Weather API post request to create new stations" time="1.389029">
+        <system-out>
+            <![CDATA[Given I have the api request................................................passed
+When I submit the post request to create a station..........................passed
+Then I validate the post request station details............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Weather API scenarios" name="Weather API get request to verify the station details" time="2.634062">
+        <system-out>
+            <![CDATA[Given I have the api request................................................passed
+When I submit the post request to create a station..........................passed
+And I submit get request to retrieve station details........................passed
+Then I validate the get request station details.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 212925000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WatherAPIStepDefintion.init()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Weather API post request without API key",
+        "description": "",
+        "id": "weather-api-scenarios;weather-api-post-request-without-api-key",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1108127100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have the api request",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_have_the_api_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3118034400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I submit the get request without api key",
+            "match": {
+              "location": "WatherAPIStepDefintion.submitWithoutAPIKey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 596491700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate the response",
+            "match": {
+              "location": "WatherAPIStepDefintion.validateResponse()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 748200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WatherAPIStepDefintion.init()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Weather API post request to create new stations",
+        "description": "",
+        "id": "weather-api-scenarios;weather-api-post-request-to-create-new-stations",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 621200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I have the api request",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_have_the_api_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261982300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I submit the post request to create a station",
+            "match": {
+              "location": "WatherAPIStepDefintion.createWeatherStations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 125677000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I validate the post request station details",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_validate_the_post_request_station_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 879500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WatherAPIStepDefintion.init()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Weather API get request to verify the station details",
+        "description": "",
+        "id": "weather-api-scenarios;weather-api-get-request-to-verify-the-station-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1228200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have the api request",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_have_the_api_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1288843700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I submit the post request to create a station",
+            "match": {
+              "location": "WatherAPIStepDefintion.createWeatherStations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1235387500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I submit get request to retrieve station details",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_submit_get_request_to_retrieve_station_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107723300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I validate the get request station details",
+            "match": {
+              "location": "WatherAPIStepDefintion.i_validate_the_get_request_station_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Weather API scenarios",
+    "description": "",
+    "id": "weather-api-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/java/weather/api/features/weather.feature"
+  }
+]

@@ -1,0 +1,15 @@
+2021-02-12 08:12:25 INFO  WatherAPIStepDefintion:47 - init
+2021-02-12 08:12:25 INFO  WatherAPIStepDefintion:52 - set the base URI
+2021-02-12 08:12:26 INFO  WatherAPIStepDefintion:58 - Before calling the current weather API without passing api key
+2021-02-12 08:12:29 INFO  WatherAPIStepDefintion:66 - validating for 401 response without passing the api key 
+2021-02-12 08:12:30 INFO  WatherAPIStepDefintion:47 - init
+2021-02-12 08:12:30 INFO  WatherAPIStepDefintion:52 - set the base URI
+2021-02-12 08:12:30 INFO  WatherAPIStepDefintion:74 - submit a post request to create weather stations
+2021-02-12 08:12:30 INFO  WatherAPIStepDefintion:76 - Before calling the current weather API to create weather stations
+2021-02-12 08:12:31 INFO  WatherAPIStepDefintion:89 - validation of post request station details using assertion
+2021-02-12 08:12:31 INFO  WatherAPIStepDefintion:47 - init
+2021-02-12 08:12:31 INFO  WatherAPIStepDefintion:52 - set the base URI
+2021-02-12 08:12:31 INFO  WatherAPIStepDefintion:74 - submit a post request to create weather stations
+2021-02-12 08:12:31 INFO  WatherAPIStepDefintion:76 - Before calling the current weather API to create weather stations
+2021-02-12 08:12:32 INFO  WatherAPIStepDefintion:106 - submitting get request to retrieve station details
+2021-02-12 08:12:34 INFO  WatherAPIStepDefintion:119 - validation of get request of station using assertion
